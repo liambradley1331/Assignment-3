@@ -1,9 +1,8 @@
-
 .text {
     font-family: Arial, sans-serif;
     font-size: 32px;
     color: white;
-    
+
 }
 
 .speech {
@@ -45,17 +44,3 @@
 .shield {
     opacity: 0;
 }
-
-@media screen and (max-width: 1700px) {
-    body {
-        display: none;
-    }
-    
-
-}
-
-@media screen and (max-height: 1200px) {
-    body {
-        display: none;
-    }
-}  

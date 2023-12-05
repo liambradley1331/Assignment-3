@@ -63,10 +63,10 @@ wall.on("mouseover", function () {
 red.on("mouseover", function () {
     console.log("working");
     intro.hide();
-    
+
     if (def.is(":visible")) {
-    nervous.show();
-    def.hide();
+        nervous.show();
+        def.hide();
     } else if (nervous.is(":visible")) {
         nervous.hide();
         def.show();
@@ -117,7 +117,7 @@ star.on("click", function () {
     swag.hide();
     nervous.hide();
     dub.show();
-    
+
     restart.show();
     winning.hide();
     won.show();
@@ -145,7 +145,7 @@ restart.on("click", function () {
     won.hide();
     intro.show();
     dub.hide();
-   
+
 
 })
 
