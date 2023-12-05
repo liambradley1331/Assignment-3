@@ -1,0 +1,61 @@
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: white;
+    
+}
+
+.speech {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px;
+}
+
+
+
+
+.markiplier {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+.maze {
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.red {
+    opacity: 0;
+}
+
+.shield {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1700px) {
+    body {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-height: 1200px) {
+    body {
+        display: none;
+    }
+}  
